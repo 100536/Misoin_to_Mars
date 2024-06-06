@@ -1,0 +1,78 @@
+*{
+    padding: 0px;
+    margin: 0px;
+  }
+  
+  html {
+    margin: 0;
+    height: 100%;
+  }
+  body{
+    background-image: url("./image/Achtergrond.jpg");
+    background-size: cover;
+    width: auto;
+    height: auto    ;
+    height: 100vh;
+    padding:0;
+    margin:0;
+    overflow-y: hidden; 
+    overflow-x: hidden;
+  }
+  
+  .foto1 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .logo1{
+  position: absolute;
+  padding-left: 20px;
+  }
+  
+  .mainheader{
+  display: flex;
+  align-items: center;
+  }
+  
+  .homebutton {
+    right: 20px;
+    width: 100px;
+    padding-top: 00px;
+    padding-right: 20px;
+    position: fixed;
+    z-index: 2;
+  }
+  
+  .homebutton a {
+    display: block;
+    margin-bottom: 1em;
+    padding: 0.3em 1.25em;
+    border: 1px solid #c2c7cc;
+    font-family: 'Open-Sans', sans-serif;
+    font-size: 1.1em;
+    line-height: 1.667em;
+    text-decoration: none;
+    color: #8a9199;
+    cursor: pointer;
+    background: #fff;
+    transition: color,border-color ease 0.3s;
+    border-radius: 2em;
+  }
+  .homebutton a:hover {
+    border-color: #42B6F3;
+    color: #42B6F3;
+    text-decoration: none;
+  }
+  
+  .parent {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-column-gap: 20px;
+    grid-row-gap: 30px;
+    margin-left: 30px;
+    margin-top: 70px;
+    }
+    
+ 

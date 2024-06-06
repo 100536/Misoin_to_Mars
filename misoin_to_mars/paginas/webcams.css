@@ -1,0 +1,166 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+html {
+  margin: 0;
+  height: 100%;
+}
+
+body {
+  background-image: url("./image/Achtergrond.jpg");
+  background-size: cover;
+  width: auto;
+  height: auto;
+  height: 100vh;
+  padding: 0;
+  margin: 0;
+
+}
+
+.foto1 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.logo1 {
+  position: absolute;
+  padding-left: 20px;
+}
+
+.mainheader {
+  display: flex;
+  align-items: center;
+}
+
+.homebutton {
+  right: 20px;
+  width: 100px;
+  padding-top: 00px;
+  padding-right: 20px;
+  position: fixed;
+  z-index: 2;
+}
+
+.homebutton a {
+  display: block;
+  margin-bottom: 1em;
+  padding: 0.3em 1.25em;
+  border: 1px solid #c2c7cc;
+  font-family: 'Open-Sans', sans-serif;
+  font-size: 1.1em;
+  line-height: 1.667em;
+  text-decoration: none;
+  color: #8a9199;
+  cursor: pointer;
+  background: #fff;
+  transition: color, border-color ease 0.3s;
+  border-radius: 2em;
+}
+
+.homebutton a:hover {
+  border-color: #42B6F3;
+  color: #42B6F3;
+  text-decoration: none;
+}
+
+.feed-wrapper {
+  position: relative;
+  display: inline-block;
+  width: 360px;
+  height: 360px;
+}
+
+.feed-wrapper img {
+  position: absolute;
+  margin-left: 120px;
+  top: 170px;
+
+}
+
+.feed-border {
+  z-index: 2;
+  position: absolute;
+}
+
+#img1 {
+  margin-top: 65px;
+  left: 12px;
+}
+
+#img2 {
+  margin-top: 65px;
+  left: 14px;
+}
+
+#img3 {
+  margin-top: 65px;
+  left: 14px;
+}
+
+#img4 {
+  margin-top: 65px;
+  left: 14px;
+}
+
+.naam1 {
+  position: absolute;
+  background-color: grey;
+  width: 250px;
+  height: 75px;
+  margin-left: 165px;
+  top: 650px;
+  text-align: center;
+  font-size: 50px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.naam2 {
+  position: absolute;
+  background-color: grey;
+  width: 250px;
+  height: 75px;
+  margin-left: 540px;
+  top: 650px;
+  text-align: center;
+  font-size: 45px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.naam3 {
+  position: absolute;
+  background-color: grey;
+  width: 250px;
+  height: 75px;
+  margin-left: 900px;
+  top: 650px;
+  text-align: center;
+  font-size: 50px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.naam4 {
+  position: absolute;
+  background-color: grey;
+  width: 250px;
+  height: 75px;
+  margin-left: 1275px;
+  top: 650px;
+  text-align: center;
+  font-size: 50px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.naam5 {
+  position: absolute;
+  background-color: grey;
+  width: 250px;
+  height: 75px;
+  margin-left: 1645px;
+  top: 650px;
+  text-align: center;
+  font-size: 48px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
